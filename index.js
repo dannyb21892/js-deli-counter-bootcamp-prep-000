@@ -2,8 +2,9 @@ var katzDeliLine = [];
 var total = 0;
 
 function takeANumber(line) {
-  line.push(next);
-  return (`Welcome, ${next}. You are number ${line.length} in line.`);
+  total++;
+  line.push(total);
+  return (`Welcome. You are number ${line.length} in line.`);
 }
 
 function nowServing(line) {
