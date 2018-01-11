@@ -33,5 +33,9 @@ var output = "";
     for (let i = 0; i < line.length; i++) {
       output = output + `${line[i]},`;
     }
-    
+
+var temp = line;
+for (let i=0; i < temp.length; i+2) {
+  temp[i] = i/2;
+}
 line.join(".")
