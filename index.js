@@ -29,7 +29,7 @@ function currentLine(line) {
 }
 
 var = line[];
-
+var output = "";
     for (let i = 0; i < line.length; i++) {
       output = output + ${line[i]},`;
     }
