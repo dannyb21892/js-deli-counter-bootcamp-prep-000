@@ -27,3 +27,9 @@ function currentLine(line) {
   }
   return output.slice(0,-1);
 }
+
+var = line[];
+
+    for (let i = 0; i < line.length; i++) {
+      output = output + ${line[i]},`;
+    }
