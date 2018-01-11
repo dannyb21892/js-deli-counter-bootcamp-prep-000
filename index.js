@@ -4,7 +4,7 @@ var total = 0;
 function takeANumber(line) {
   total++;
   line.push(total);
-  return (`Welcome. You are number ${line.length} in line.`);
+  return (`Welcome. You are customer number ${total}. You are currently number ${line.length} in line.`);
 }
 
 function nowServing(line) {
